@@ -1,0 +1,26 @@
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+div.list{
+    float: inline;
+    padding:10px;
+    margin-left: 500px;
+    margin-right:500px;
+    overflow: hidden;
+}
+ul.list{
+    margin:30px;
+    padding:20px;
+    overflow:hidden;
+    background-color: azure;
+    border-style: ridge;
+    border-color: rebeccapurple
+}
+li.list{
+    margin-right:100px;
+    display:inline;
+    text-align:center;
+    font-size:50px;
+    color:#FF0421;
+}
