@@ -9,34 +9,62 @@
   </head>
 
   <body >
-    <h1>
-      Goonga Ginga
-    </h1>
-
-
-    <ul class = "nav-bar">
-      <li class ="nav-bar"><a href ="https://www.nytimes.com/" target = page1>NYtimes</a></li>
-      <li class ="nav-bar"><a href ="https://www.theringer.com/" target = page2>The Ringer</a></li>
-      <li class ="nav-bar"><a href ="https://www.omfgdogs.com/" target = page3>dogs</a></li>
-      <li class = "nav-bar"><a href ="jtester.html" target = page4>Javascript Test page</a></li>
-      <li class = "nav-bar"><a href ="experimental.html" target = page5>Ponderings</a></li>
-    </ul>
-
-    <!--<a href="https://www.nytimes.com/" target = "_blank">Click here!<br></a> -->
-
-    <div class = "image_holder">
-    <img class = "image" src="stonks.jpg" alt = "img">
-    <img class = "image" src = "452.png" alt = "yes" > 
+    <nav id="navbar"> 
+      <div id=center>
+        <ul id= "navigation">
+          <li class="list-ele"><a href="#proj1" class="nav-ele">Projects</a></li>
+          <li class="list-ele"><a href="#end" class="nav-ele">cat</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="welcome-section">
+       <h1 id="title"> Welcome </h1>
     </div>
 
-      <p id = "caption">
-      "You'll float too"
-      </p>
-    <div class="biography">
-      <p class="biography"> &emsp; 
-        "I crave the sweet release of death"
-      </p>
+    <div id="barrier">
+      <div id="barrier-text-container">
+        <div id="barrier-text"> Introduction</div>
+      </div>
     </div>
+
+    <div id="introduction">
+      <img src="circle-cropped.png" id="profile-pic">
+      <div id="intro-text">
+        <div><t>Hello, my name is Trevor Leong and I am student at Carnegie Mellon University majoring in Computer Science, looking to concentrate in computer security and minor in Business Administration.
+           I am passionate about blockchain technologies, and how they are being used to improve supply chains and other applications.
+            My skills lay in molecular biology as well as a small amount of competitive programming and robotics, and am proficient in C++ and python.
+             Currently, I am currently working on improving my web development skills, both front and back ends. 
+             That being said, I am open to learning anything and am happy to meet as many people as possible
+        </div>
+      </div>
+    </div>
+    <div id="barrier">
+      <div id="barrier-text-container">
+        <div id="barrier-text"> Projects</div>
+      </div>
+    </div>
+    
+    <div id="projects-holder">
+      <div id="projects">
+        <div class= "project-tile">
+       <a href="https://github.com/futurewitness/02-251-final-project-code"> <img src="https://resize.hswstatic.com/w_796/gif/cellular-microscopic-dna.jpg" class ="project-image"> </a> 
+          <div id="proj1" class = "bot"> Secure sequence aligner </div>
+         </div>
+         <div class= "project-tile">
+       <a href="https://github.com/futurewitness/vision_experimentation"> <img src="pic.png" class="project-image"> </a> 
+          <div class = "bot"> edge detection with openCV</div>
+         </div>
+         <div class= "project-tile">
+       <a href="https://codepen.io/futurewitness/pen/yLOpvpE"> <img src="calc.png" class ="project-image"> </a> 
+          <div class = "bot">Calculator using react-redux(in progress)</div>
+        </div>
+      </div>
+        
+    <div id="end">
+        <a href="https://github.com/futurewitness" id="profile-link" target="_blank">
+          <img src="github-logo.png" id="github-logo">
+        </a>
+     </div>
   </body>
 
 </html>
