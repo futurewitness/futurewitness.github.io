@@ -24,9 +24,8 @@ body {
   background:#FFA07A;
   justify-items:center;
   align-items:center;
-  height:100vh;
-  width:100%;
-  float:left;
+  height:80vh;
+  width:100vw;
 }
 #intro-text {
   color:black;
@@ -39,6 +38,7 @@ body {
   width:100vw;
   height:30vh;
   background-color: black;
+  z-index:0;
 }
 .barrier-text-container {
   display:flex;
