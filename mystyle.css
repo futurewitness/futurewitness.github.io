@@ -7,12 +7,6 @@ body {
   margin:0;
   padding:0;
 }
-#root-container {
-  background:#FFA07A;
-  display:flex;
-  flex-direction: column;
-  justify-content: left;
-}
 #title {
  color:black;
  text-align:center;
