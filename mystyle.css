@@ -7,6 +7,12 @@ body {
   margin:0;
   padding:0;
 }
+#root-container {
+  background:#FFA07A;
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+}
 #title {
  color:black;
  text-align:center;
@@ -29,12 +35,12 @@ body {
   font-size: large;
   text-indent:5%;
 }
-#barrier {
+.barrier {
   width:100vw;
   height:30vh;
   background-color: black;
 }
-#barrier-text-container {
+.barrier-text-container {
   display:flex;
   justify-content:center;
   align-items:center;
@@ -101,8 +107,7 @@ body {
 .bot {
  align-self: center;
  text-align:center;
- border-style: groove;
- border-radius: 1%;
+ font-size:120%;
 }
 .project-image {
   display:block;
