@@ -17,11 +17,12 @@ body {
  color:black;
  text-align:center;
  margin:auto;
+ font-size:8vw;
 }
 #introduction {
   display:flex;
   flex-direction:column;
-  background:#FFA07A;
+  background:#E8CEBF;
   justify-items:center;
   align-items:center;
   height:80vh;
@@ -31,13 +32,13 @@ body {
   color:black;
   width:80%;
   font-weight: bold;
-  font-size: large;
+  font-size: 1.5vw;
   text-indent:5%;
 }
 .barrier {
   width:100vw;
   height:30vh;
-  background-color: black;
+  background-color: #266150;
   z-index:0;
 }
 .barrier-text-container {
@@ -75,15 +76,14 @@ body {
 
 #projects {
  width: 100%;
- height:100%;
+ height:120%;
  margin-left:auto;
  margin-right:auto;
  display:grid;
  grid-template-columns: 20% 20% 20%;
  grid-template-rows: auto;
- row-gap: 5%;
  column-gap: 5%;
- background-color:#FFA07A;
+ background-color:#DDAF94;
  justify-content:space-around;
  align-content: space-around;
 }
@@ -95,10 +95,11 @@ body {
  color:black;
  background-color: rgb(153, 153, 153);
  width:  100%;
- height: 100%;
+ height: 120%;
  align-items:center;
  justify-items: flex-end;
  justify-content: end;
+ border-radius:40%;
 }
 #lol {
   margin:10%;
@@ -108,16 +109,16 @@ body {
  align-self: center;
  text-align:center;
  font-size:120%;
+ max-width:80%;
 }
 .project-image {
-  display:block;
- max-height:100%;
- max-width:100%;
- margin:auto;
+ height:20vh;
+ width:15vw;
+ border-radius:50%;
 }
 #navbar {
  position:fixed;
- background-color:black;
+ background-color: #4F4846;
  top:0;
  left:0;
  width:100vw;
@@ -153,7 +154,7 @@ body {
  height:20vh;
  font-style:bold;
  margin:auto;
- background-color:pink;
+ background-color: #4F4846;
  width:100vw;
 }
 #profile-link {
@@ -164,3 +165,7 @@ body {
   max-width: 30%;
   max-height:30%;
 }
+
+
+
+
