@@ -41,7 +41,6 @@ body {
   width:100vw;
   height:30vh;
   background-color: #266150;
-  z-index:0;
 }
 .barrier-text-container {
   display:flex;
