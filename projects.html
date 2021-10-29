@@ -26,18 +26,10 @@
 
 			<div class="pl-4">
 				<a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="#">
-					Minimal Blog
+					Just another site
 				</a>
 			</div>
 
-			<div class="block lg:hidden pr-4">
-				<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-green-500 appearance-none focus:outline-none">
-					<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-						<title>Menu</title>
-						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-					</svg>
-				</button>
-			</div>
 			<!--Navigation bar--> 
 			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
 				<ul class="list-reset lg:flex justify-end flex-1 items-center">
@@ -45,7 +37,7 @@
 						<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="./index.html">Home</a>
 					</li>
 					<li class="mr-3">
-						<a class="inline-block text-gray-900 no-underline hover:text-gray-900 hover:text-underline py-2 px-4 font-bold" href="./projects.html">Current Projects</a>
+						<a class="inline-block text-gray-900 no-underline hover:text-gray-900 hover:text-underline py-2 px-4 font-bold" href="./projects.html">What I'm doing now</a>
 					</li>
 					<li class="mr-3">
 						<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="./background.html"> Background</a>
@@ -68,43 +60,93 @@
 
 			<!--Title-->
 			<div class="font-sans">
-						<h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">Welcome to Minimal Blog</h1>
-						<p class="text-sm md:text-base font-normal text-gray-600">Published 19 February 2019</p>
+						<h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">What I'm doing now</h1>
+
 			</div>
             <hr width=100%>
 
 			<!--Post Content-->
 			<!--Lead Paragraph-->
-			<h2 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
-				Courses
-			</h2>
+			
 
 			<div class = "w-full  flex flex-col content-between justify-between  ">
-                
+                <h2 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
+					Courses I'm taking this semester
+				</h2>
+				<h2 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-xl md:text-2xl">
+					15-316: Software Foundations of Security and Privacy
+				</h3>
                 <p class="py-6">
-                    The basic blog page layout is available and all using the default Tailwind CSS classes
-                     (although there are a few hardcoded style tags). If you are going to use this in your project,
-                      you will want to convert the classes into components. Click <a class='text-red-400 hover:bg-blue-100 hover:text-underline' href='./projects/p1.html'>Here</a>  to find out more.
+					This class is my favorite of of all the courses I am taking right now. I was introduced
+					to some of the concepts taught in the class like information flow and side channels from the intro
+					course I took last semester. This class goes into much more detail and introduces how 
+					safety policies addressing these issues can be formalized. It has been very interesting 
+					to see how we can matematically prove that the program we write will not be vulnerable to
+					a certain class of bugs.
+                </p>
+				<h3 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-2xl">
+					15-451: Algorithm Design and Analysis
+				</h3>
+                <p class="py-6">
+					After going through 15-251 and 15-210, the theoretical CS and algorithm courses at CMU,
+					I was fully expecting this course to be nearly impossible. To my surprise, I was able 
+					to understand most of the concepts after hearing it from lecture. The course is difficult, but
+					the foundations provided to me have prepared me well.
+				</p>
+					<p class="py-6">
+					The course starts put by giving us a framework
+					for evaluating algorithms, and taught us to ask quesitons such as, how close to the optimal will our
+					algorithm's output be? Is there room for improvement, or does the algorithm reach a lower bound in terms of
+					space or time? The next part of the course focused on algorithms and data structures
+					for common problems in CS such as using Splay-Trees for slightly faster guarantees when the access pattern
+					of the inputs are known and pushing the maximum amount of flow. <a class="text-blue-800 hover:underline" href="http://www.cs.cmu.edu/~15451/">Previous Course Sites</a>
+
+                </p>
+				<h3 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-2xl">
+					17-333: Privacy,Policy, Technology and Law
+				</h3>
+                <p class="py-6">
+					I have to admit, this was a required course for the security and privacy concentration, so I didn't come
+					in with the highest expectations. The course description described the course as more of a 
+					policy one, and would discuss current privacy laws and their motives. Initially, I was unconvinced that
+					policies were a viable solution, seeing that larger companies like Google and Facebook have been 
+					harvesting data for a while now even with these laws. After the first few weeks however, I changed my stance.
+					The course so far has really shown me that policy can be effective, as things like the GDPR and CCPA are forcing
+					companies to actually respect consumer privacy. Additionally, while many issues like web tracking and data aggregation
+					remain prevalent, it is only because there are studies attempting to figure out a way to adress these compelx issues
+					that is both enforcable and will not bankrupt any businesses. <a class="text-blue-800 hover:underline" href="https://cups.cs.cmu.edu/courses/privpolawtech.html">Previous Course Sites</a>
+
                 </p>
 				<h2 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
 					Secureum Bootcamp
 				</h2>
                 <hr>
-                <div class=" bg-blue-100 h-64 flex flex-col my-3">
-                    <img class="w-full h-full p-8" src="./assets/near-logo.svg">
+                <div class="w-full h-full flex justify-center ">
+                    <img class="w-96 h-96 p-8" src="./assets/secureum.jpg">
                 </div>
                 <p class="py-6">
-                    The basic blog page layout is available and all using the default Tailwind CSS classes
-                     (although there are a few hardcoded style tags). If you are going to use this in your project,
-                      you will want to convert the classes into components. Click <a class='text-red-400 hover:bg-blue-100 hover:text-underline' href='./projects/p1.html'>Here</a>  to find out more.
+					I am currently participating in the Secureum Bootcamp to better understand smart contract vulnerabilities
+					and how to audit contracts to find such vulnerabilities. The bootcamp is loosely structured,
+					giving all participants weekly materials to read as well as optional assignments to help strengthen
+					understanding. So far, they have only covered Ethereum and Solidity, but have went into incredible detail
+					on both. I have had experience writing smart contracts in Solidity, but have learned so much about the specifis
+					of Solidity such as the bytecode instruciton used by the EVM as well as how memory and storage are managed. I am looking
+					forward to the audit part of the bootcamp, as I'll finally get to exploit some vulnerabilites with my newfound
+					knowledge. <a class="text-blue-800 hover:underline" href="https://secureum.substack.com/">More details</a>
                 </p>
 				<h2 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
-					Pwn.College
+					Pwn.college
 				</h2>
+				<p class="py-6">
+					Description coming soon
+                </p>
 				<hr>
 				<h2 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">
 					Raspberry Pi Web Server
 				</h2>
+				<p class="py-6">
+					Description coming soon
+                </p>
                 <hr>
             </div>
         </div>
@@ -112,40 +154,7 @@
 	</div>
 	<!--/container-->
 
-	<footer class="bg-white border-t border-gray-400 shadow ">
-		<div class="container max-w-4xl mx-auto flex py-8">
-
-			<div class="w-full mx-auto flex flex-wrap">
-				<div class="flex w-full md:w-1/2 ">
-					<div class="px-8">
-						<h3 class="font-bold text-gray-900">About</h3>
-						<p class="py-4 text-gray-600 text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
-						</p>
-					</div>
-				</div>
-
-				<div class="flex w-full md:w-1/2">
-					<div class="px-8">
-						<h3 class="font-bold text-gray-900">Social</h3>
-						<ul class="list-reset items-center text-sm pt-3">
-							<li>
-								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
-							</li>
-							<li>
-								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
-							</li>
-							<li>
-								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-
-
-		</div>
+	<footer class="bg-gray-200 h-32 border-t border-gray-400 shadow ">
 	</footer>
 
 	<script>
